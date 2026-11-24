@@ -162,8 +162,6 @@
 </script>
 
 <div class="container">
-	<h1>Free</h1>
-
 	<div class="navigation">
 		<button onclick={() => moveMonth(-1)}>‹</button>
 		<strong>{year}. {month + 1}.</strong>
