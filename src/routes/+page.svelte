@@ -252,6 +252,7 @@
 				{/each}
 			</div>
 
+			<!--
 			<button
 				class="copy"
 				onclick={() =>
@@ -264,6 +265,7 @@
 			>
 				Copy availability
 			</button>
+      -->
 		</section>
 	{/if}
 </div>
