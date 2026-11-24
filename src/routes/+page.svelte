@@ -21,6 +21,14 @@
 
 	function moveMonth(offset: number) {
 		const next = new Date(year, month + offset, 1);
+
+		if (
+			next.getFullYear() < today.getFullYear() ||
+			(next.getFullYear() === today.getFullYear() && next.getMonth() < today.getMonth())
+		) {
+			return;
+		}
+
 		year = next.getFullYear();
 		month = next.getMonth();
 	}
